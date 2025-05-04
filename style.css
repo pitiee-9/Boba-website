@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f7f4f4;
+    color: #000000d3;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url('miami.jpg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero .content {
+    z-index: 2;
+    padding: 20px;
+  }
+  
+  .hero .content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .section:nth-child(even) {
+    background: #0e0c0c;
+    color: white;
+  }
+  
+  .section:nth-child(odd) {
+    background: #294224;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    color: white;
+  }
